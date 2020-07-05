@@ -49,6 +49,7 @@ nav a:hover{
 	padding: 10px 35px;
 	font-size: 14px;
 	margin-left: 20px;
+	background-color: white;
 }
 #top-phone-container{
 	display: flex;
