@@ -58,7 +58,7 @@ nav a:hover{
 	padding: 10px 35px;
 	font-size: 14px;
 	margin-left: 20px;
-	background-color: white;
+	background-color: black;
 }
 .top-phone-container{
 	display: flex;
@@ -152,11 +152,28 @@ nav a:hover{
 	height: 550px;
 	width: 300px;
 }
-p {
+.textp { font-family: 'Caveat', cursive;
+     font-size: 28px;
 	display: inline-block;
-	font:2em Arial, sans-serif;
 	text-shadow: red 0 0 2px;
 	float: left;
 	margin: 7px 7px 7px 0;
+	padding-top: 100px;
 	
+}
+.gendalf {
+	text-shadow: red 0 0 2px;
+}
+#myBtn {
+	border: 1px solid #fc557c;
+	background-color: black;
+	color:red;
+
+}
+#myBtn:hover{
+	color:white;
+} 
+.zag1 {
+	text-shadow: red 0 0 2px;
+	text-align: center;
 }
