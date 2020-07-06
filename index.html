@@ -5,37 +5,64 @@
 	<title>Данил Алейников - frontend-разработчик и верстальщик-web </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<style>
-	body{
-		background: url(images/85.png);
-	}
-</style>
 <body>
 
-	<div id="layout">
+	<div class="layout">
 		<div id="header" class="centered">
 		<nav>
 			<a href="#">Услуги</a>
 			<a href="#">Портфолио</a>
 			<a href="#">Стоимость</a>
+			<button id="myBtn">
+			Open Modal
+		</button>
+		     <div id="myModal" class="modal">
+			    <div class="modal-content">
+			         <div class="modal-body">
+			         	 <span class="close">&times;</span>
+			         	 <p class="textp">Hello World</p>
+			         	<img class="frodo" src="images/Frodo_11618.png">
+			         </div>
+			          <div class="modal-footer">
+			          </div>
+				
+			   </div>
+				
+			</div>
+
 		</nav>
-		<div id="top-phone-container">
-			<a id="top-recall" href="tel:+79281231183">+7 928 123-11-83
+		<div class="top-phone-container">
+			<a class="top-recall" href="tel:+79281231183">+7 928 123-11-83
 			</a>
 		</div>
 		</div>
-		<div id="pic">
-             <img id="photo" src="images/lord-of-the-rings-the-lord.png" >
+		<div class="pic">
+             <img class="photo" src="images/lord-of-the-rings-the-lord.png" >
 		</div>
-		<div id="text">
-			<h1 id="h">
-				Helo World
+		<div class="text">
+			<h1 class="h">
+				Hello World
 			</h1>
 		</div>
 	</div>
-	<div id="footer">
+	<div class="footer">
 		&copy; Данил Алейников
 	</div>
-	
+	<script>
+					var modal = document.getElementById("myModal");
+					var btn = document.getElementById("myBtn");
+					var span = document.getElementsByClassName("close")[0]
+					btn.onclick = function(){
+						modal.style.display = "block";
+					}
+					span.onclick = function(){
+						modal.style.display="none"
+					}
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display="none";
+						}
+					}
+				</script>
 </body>
 </html>
