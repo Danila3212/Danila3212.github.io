@@ -21,7 +21,7 @@ body {
 	height: 100%;
 }
 .centered {
-	width: 1080px;
+	width: 1150px;
 	margin: 0 auto;
 	height: 100px;
 	
@@ -65,16 +65,6 @@ nav a:hover{
 	justify-content: flex-end;
 	align-items: center;
 }
-.footer {
-	 position: fixed; 
-    left: 0; bottom: 0;
-    padding: 10px; 
-    background: #39b54a; 
-    color: #fff; 
-    width: 100%;
-}
-
-
 .pic {
 	float: right;
 }
@@ -176,4 +166,38 @@ nav a:hover{
 .zag1 {
 	text-shadow: red 0 0 2px;
 	text-align: center;
+	color:white;
+}
+.oko {
+	height: 45px;
+	width: 45px;
+	float: left;
+}
+.card-img-top {
+	height: 300px;
+	width: 240px;
+	position: relative;
+	margin: auto;
+}
+.card-deck {
+	width: 1000px;
+	position: relative;
+	margin: auto;
+	padding-top:30px;
+}
+.card-title {
+	text-align: center;
+}
+.carousel{
+	width: 800px;
+	height: 450px;
+}
+#carouselExampleFade {
+	margin-left: 140px;
+	text-shadow: red 0 0 2px;
+
+}
+.navbar-text {
+
+background-color: #333;
 }
