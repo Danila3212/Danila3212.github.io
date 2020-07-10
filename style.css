@@ -24,8 +24,6 @@ body {
 	width: 1150px;
 	margin: 0 auto;
 	height: 100px;
-	
-
 }
 #header {
 	display: flex;
@@ -37,20 +35,16 @@ nav a {
 	text-decoration: none;
 	margin-right: 30px;
 	text-shadow:red 0 0 2px;
-
-
 }
 nav a:hover{
 	color:#fc557c;
 	border-bottom: 1px solid #fc557c;
 	padding-bottom: 2px;
-
 }
 #top-phone{
 	font-size: 22px;
 	text-decoration: none;
 	color:black;
-	
 }
 .top-recall{
 	color:#fc557c;
@@ -73,96 +67,16 @@ nav a:hover{
 }
 .h {
 	text-align: center;
-
-}
-.modal{
-	display: none;
-	position: fixed;
-	z-index: 1;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	overflow: auto;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0,0.4);
-}
-.modal-content{
-	position: relative;
-	background-color:green;
-	margin: auto;
-	padding: 3px;
-	border:1px solid #888;
-	width: 80%;
-	box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-	animation-name: animatetop;
-	animation-duration: 0,4s;
-@keyframes animatetop {
-	from{
-		top: -300px; opacity: 0
-	}
-	to {
-		top: 0; opacity: 1
-	}
-}	
-
-
-}
-.close {
-	color:white;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
-}
-.close:hover,
-.close:focus{
-	color:red;
-	text-decoration: none;
-	cursor: pointer;
 }
 
-
-.modal-body {
-	padding: 2px 16px;
-	background:url(images/shir.jpeg);
-	color:white;
-	text-align: right;
-}
-.modal-footer{
-	padding: 2px 16px;
-	background-color: red;
-	color:white;
-}
 .photo {
 	height: 650px;
 	width: 280px;
 }
-.frodo {
-
-	height: 550px;
-	width: 300px;
-}
-.textp { font-family: 'Caveat', cursive;
-     font-size: 28px;
-	display: inline-block;
-	text-shadow: red 0 0 2px;
-	float: left;
-	margin: 7px 7px 7px 0;
-	padding-top: 100px;
-	
-}
 .gendalf {
 	text-shadow: red 0 0 2px;
 }
-#myBtn {
-	border: 1px solid #fc557c;
-	background-color: black;
-	color:red;
 
-}
-#myBtn:hover{
-	color:white;
-} 
 .zag1 {
 	text-shadow: red 0 0 2px;
 	text-align: center;
@@ -195,7 +109,6 @@ nav a:hover{
 #carouselExampleFade {
 	margin-left: 140px;
 	text-shadow: red 0 0 2px;
-
 }
 .navbar-text {
 
