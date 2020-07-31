@@ -11,7 +11,7 @@ html{
 	background: url(images/85.png)
 }
 body {
-	background: url(images/map.jpg) center no-repeat fixed;width: 100%;
+	background: url(images/map.jpg) center no-repeat;width: 100%;
 }
 }
 .layout {
@@ -23,6 +23,7 @@ body {
 	margin: 0 auto;
 	height: 100px;
 }
+
 #header {
 	display: flex;
 	justify-content: space-between;
@@ -60,16 +61,18 @@ nav a:hover{
 .pic {
 	float: right;
 }
-.text {
+.txt {
 	margin-right: 110px;
 }
 .h {
 	text-align: center;
 }
+#myModal{
+	z-index: 1;
+}
 .modal1{
 	display: none;
 	position: fixed;
-	z-index: 1;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -96,8 +99,6 @@ nav a:hover{
 		top: 0; opacity: 1
 	}
 }	
-
-
 }
 .close {
 	color:white;
@@ -125,15 +126,14 @@ nav a:hover{
 	color:white;
 }
 .frodo {
-
 	height: 550px;
 	width: 300px;
 }
-.textp1 { font-family: 'Caveat', cursive;
+.textp1 { 
+	font-family: 'Caveat', cursive;
      font-size: 28px;
 	display: inline-block;
 	text-shadow: red 0 0 2px;
-	float: left;
 	margin: 7px 7px 7px 0;
 	padding-top: 100px;
 	
@@ -181,15 +181,18 @@ nav a:hover{
 .card-title {
 	text-align: center;
 }
-.carousel{
+#carouselExampleCaptions{
+	float: left;
+	margin-left: 160px;
+}
+.carousel-item {
 	width: 800px;
 	height: 450px;
 }
-#carouselExampleFade {
-	margin-left: 140px;
-	text-shadow: red 0 0 2px;
+.text {
+	color: greenyellow;
 }
-.navbar-text {
 
+.navbar-text {
 background-color: #333;
 }

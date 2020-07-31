@@ -1,6 +1,24 @@
 $('.show-large').click(function () {
 	$('.news-large').modal('show')
 })
+$('.sho-large').click(function () {
+	$('.new-large').modal('show')
+})
+$('.sh-large').click(function () {
+	$('.ne-large').modal('show')
+})
+$('.show-large').click(function () {
+	$('.news-large').modal('show')
+})
+$('.show-large').click(function () {
+	$('.news-large').modal('show')
+})
+$('.show-large').click(function () {
+	$('.news-large').modal('show')
+})
+$('.show-large').click(function () {
+	$('.news-large').modal('show')
+})
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0]
