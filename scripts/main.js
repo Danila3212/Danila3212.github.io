@@ -7,14 +7,14 @@ $('.sho-large').click(function () {
 $('.sh-large').click(function () {
 	$('.ne-large').modal('show')
 })
-$('.show-large').click(function () {
-	$('.news-large').modal('show')
+$('.s-large').click(function () {
+	$('.n-large').modal('show')
 })
-$('.show-large').click(function () {
-	$('.news-large').modal('show')
+$('.a-large').click(function () {
+	$('.z-large').modal('show')
 })
-$('.show-large').click(function () {
-	$('.news-large').modal('show')
+$('.b-large').click(function () {
+	$('.y-large').modal('show')
 })
 $('.show-large').click(function () {
 	$('.news-large').modal('show')
